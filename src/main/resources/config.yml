@@ -1,0 +1,9 @@
+url: "https://paste.kyllian.nl"
+path: '/logs/latest.log'
+
+messages:
+  no_permission: "&cYou don't have permission to do this!"
+  wait: "&aUploading logs, please wait..."
+  success: "&aLogs uploaded! &e{url}"
+  file_not_found: "&cThe file was not found!"
+  error: "&cAn error occurred while uploading the logs. Please try again later."

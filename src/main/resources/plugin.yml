@@ -1,0 +1,12 @@
+name: UploadLogs
+main: nl.kyllian.uploadlogs.UploadLogsPlugin
+version: ${project.version}
+api-version: 1.13
+author: Kyllian
+description: Uploads logs to my own privatebin server
+
+commands:
+    uploadlogs:
+        description: Uploads the logs to my own privatebin server
+        usage: /uploadlogs
+        aliases: [ul]
