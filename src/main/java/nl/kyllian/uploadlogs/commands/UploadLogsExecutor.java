@@ -42,6 +42,7 @@ public class UploadLogsExecutor implements CommandExecutor {
 
             Paste paste = new Paste(url)
                     .setMessageFromFile(path)
+                    .removeIps()
                     .encrypt();
 
             sender.sendMessage(StringUtils.colorTranslate(plugin.getConfig().getString("messages.wait")));
